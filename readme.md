@@ -84,6 +84,6 @@ sudo ls /root
 
 ***Flags:***
 
-Primera Flag: mr. meeseek hair
-Segunda Flag: 1 jerry tear
-Tercera Flag: fleeb juice
+- Primera Flag: mr. meeseek hair
+- Segunda Flag: 1 jerry tear
+- Tercera Flag: fleeb juice
