@@ -13,7 +13,7 @@
 
 - Aunque en la misma descripción de la máquina, nos explica que podemos explorar la aplicación web en:  https://IP_MAQUINA.p.thmlabs.com
 - Primero, realizamos un escaneo con NMAP de los puertos disponibles:
-FOTO 1
+![FOTO1](/fotos_write_up/foto1.png)
 - Segundo, vemos que tenemos 2 puertos el 22 (SSH) y el 80 (HTTP o Web). En este caso lo primero sería dirigirnos a la web.
 - Tercero, A modo de explicación, nos comenta que "Rick necesita nuestra ayuda, la ayuda de Morty. Para ello, debemos entrar en su ordenador y encontrar los 3 ingredientes secretos para terminar su poción. Pero no recuerda la contraseña".
 FOTO 2
