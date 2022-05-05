@@ -26,6 +26,7 @@ Vemos una palabra "Wubbalubbadubdub", pero si probaís, no os lleva a ningún di
 gobuster dir -u http://IP_MAQUINA -w /usr/share/dirb/wordlists/common.txt -x php
 ```
 - 5 - Si miramos el código fuente de la página principal de la web, a modo de comentario, encontraremos una primera pista. Una nota así mismo, a Rick. Con el "Username: R1ckRul3s".
+
 ![FOTO3](/fotos_write_up/foto3.png)
 
 - 6 - Al terminar gobuster. Veremos que nos encontró varios archivos ".php". Y otros que son enlaces a un "login.php". 
@@ -36,6 +37,7 @@ gobuster dir -u http://IP_MAQUINA -w /usr/share/dirb/wordlists/common.txt -x php
 usuario: R1ckRul3s
 clave: Wubbalubbadubdub
 ```
+
 ![FOTO5](/fotos_write_up/foto5.png)
 
 - 8 - Hacemos un "ls" para ver que tenemos en el actual directorio que estamos. Y encontraremos el archivo "Sup3rS3cretPickl3Ingred.txt", es el que querremos ver en principio.
@@ -55,12 +57,15 @@ Obtenemos el primer ingrediente.
 ```
 less '/home/rick/second ingredients'
 ```
+
 Veremos de esa manera el segundo ingrediente.
 ![FOTO9](/fotos_write_up/foto9.png)
 
 - 12 - Ahora debemos ir a por el último ingrediente. Al tratarse en este caso de ir buscando "ingredientes", el último para encontrarlo. En otro tipo de máquina nos tocaría el ir a buscar una flag en "/root", pero para ello primero debemos tener permisos suficientes.
 - 13 - Primero si pruebas, hacer un "ls /root", vemos que no lo tenemos disponible. Si probamos hacer un "sudo -l", para ver que podemos ejecutar como "sudo". Vemos que el usuario "www-data", que es el que somos. Puede ejecutar cualquier comando como sudo. Sin necesidad de clave.
+
 ![FOTO10](/fotos_write_up/foto10.png)
+
 - Por lo que si ejecutas:
 ```
 sudo ls /root
