@@ -1,6 +1,6 @@
 ****
 
-# CTF Write-Up Pickle Rick (Try Hack Me)
+# CTF Write-Up Pickle Rick (TryHackMe)
 
 
 
