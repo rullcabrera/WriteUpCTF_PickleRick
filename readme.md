@@ -41,6 +41,7 @@ clave: Wubbalubbadubdub
 ![FOTO5](/fotos_write_up/foto5.png)
 
 - 8 - Hacemos un "ls" para ver que tenemos en el actual directorio que estamos. Y encontraremos el archivo "Sup3rS3cretPickl3Ingred.txt", es el que querremos ver en principio.
+
 ![FOTO6](/fotos_write_up/foto6.png)
 
 - 9 - Si intentamos hacerle un "cat", nos saldrá un mensaje, de que ese comndo está deshabilitado junto al "gif grasioso". Por lo que podemos hacer, es acceder a el directamente por la url de la web. Ya que sabemos, que estamos en "/var/www/html".
