@@ -51,7 +51,8 @@ http://IP_MAQUINA/Sup3rS3cretPickl3Ingred.txt
 Obtenemos el primer ingrediente.
 ![FOTO7](/fotos_write_up/foto7.png)
 
-- 10 - Si volvemos a mirar la lista de ficheros, al hacer el "ls", vemos otros fichero de texto llamado "clue.txt", si accedemos igual que el anterior. Nos dice
+- 10 - Si volvemos a mirar la lista de ficheros, al hacer el "ls", vemos otros fichero de texto llamado "clue.txt", si accedemos igual que el anterior. Nos dice:
+
 ![FOTO8](/fotos_write_up/foto8.png)
 
 - 11 - Debemos ver el sistema de ficheros, si vemos que podemos acceder a listar cualquier lugar del sistema, lo principal es al "home" de posibles usuarios. Listamos y vemos que tenemos dos usuarios con home "rick y ubuntu". En este caso nos interesa el de "rick", para conseguir el seguno ingrediente. Hay un archivo dentro del directorio "rick", que se llama "second ingredients". Para poder verlo como hemos visto antes, no podemos usar "cat". Y ahora, tampoco podemos acceder desde la url. Por lo que usaremos un comando que nos permita ver un "resumen", de lo que tiene. Usamos el comando "less" para ello.
@@ -72,9 +73,11 @@ Veremos de esa manera el segundo ingrediente.
 sudo ls /root
 ```
 - 14 - ¡¡SORPRESA!!, podemos ver el contenido y vemos el archivo "3rd.txt", que es el tercer ingrediente. Como hemos hecho antes para leerlo ejecutamos un "less".
+
 ![FOTO11](/fotos_write_up/foto11.png)
 
 - 15 - Aquí vemos, el nombre del último ingrediente. Enhorabuena, Morty!!. Rick, podrá realizar por fin su poción!!
+
 ![FOTO12](/fotos_write_up/foto12.png)
 
 
