@@ -44,7 +44,7 @@ clave: Wubbalubbadubdub
 
 ![FOTO6](/fotos_write_up/foto6.png)
 
-- 9 - Si intentamos hacerle un "cat", nos saldrá un mensaje, de que ese comndo está deshabilitado junto al "gif grasioso". Por lo que podemos hacer, es acceder a el directamente por la url de la web. Ya que sabemos, que estamos en "/var/www/html".
+- 9 - Si intentamos hacerle un "cat", nos saldrá un mensaje, de que ese comando está deshabilitado junto al "gif grasioso". Por lo que podemos hacer, es acceder a el directamente por la url de la web. Ya que sabemos, que estamos en "/var/www/html".
 ```
 http://IP_MAQUINA/Sup3rS3cretPickl3Ingred.txt
 ```
