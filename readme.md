@@ -60,7 +60,8 @@ Obtenemos el primer ingrediente.
 less '/home/rick/second ingredients'
 ```
 
-Veremos de esa manera el segundo ingrediente.
+Veremos de esa manera el segundo ingrediente:
+
 ![FOTO9](/fotos_write_up/foto9.png)
 
 - 12 - Ahora debemos ir a por el último ingrediente. Al tratarse en este caso de ir buscando "ingredientes", el último para encontrarlo. En otro tipo de máquina nos tocaría el ir a buscar una flag en "/root", pero para ello primero debemos tener permisos suficientes.
