@@ -4,5 +4,5 @@
 
 | Máquina | Nivel | OS | Etiquetas |
 | :--- | :---: | :---: | :---: |
-| [Pickle Rick](#ctf-write-up-pickle-rick-tryhackme) | `Fácil` | `Linux` | `#web #comandos-shell` |
+| [Pickle Rick](#./PickleRick/index.md) | `Fácil` | `Linux` | `#web #comandos-shell` |
 | [Daily Bugle](#) | `Difícil`  | `Linux` | `#web #joomscan #gobuster #joomla #php-reverse-shell #nc #abusing-sudo` |
