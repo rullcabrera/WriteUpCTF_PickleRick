@@ -4,5 +4,5 @@
 
 | Máquina | Nivel | OS | Etiquetas |
 | :--- | :---: | :---: | :---: |
-| [Pickle Rick](#main/PickleRick/index.md) | `Fácil` | `Linux` | `#web #comandos-shell` |
-| [Daily Bugle](#) | `Difícil`  | `Linux` | `#web #joomscan #gobuster #joomla #php-reverse-shell #nc #abusing-sudo` |
+| [Pickle Rick](main/PickleRick/index.md) | `Fácil` | `Linux` | `#web #comandos-shell` |
+| [Daily Bugle](main/DailyBugle/index.md) | `Difícil`  | `Linux` | `#web #joomscan #gobuster #joomla #php-reverse-shell #nc #abusing-sudo` |
