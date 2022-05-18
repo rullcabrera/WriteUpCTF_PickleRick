@@ -1,6 +1,8 @@
 <img src='imgs/portada_ctf.png' width='700' align='center'>
 
-## Lista de WriteUps de Máquinas resueltas de la plataforma TryHackMe Happy Hacking!
+## Lista WriteUps Máquinas resueltas de la plataforma TryHackMe 
+### Happy Hacking!
+#### ((-(-.(-.-).-)-)) ((-(-.(-.-).-)-)) ((-(-.(-.-).-)-))
 
 | Máquina | Nivel | OS | Etiquetas |
 | :--- | :---: | :---: | :---: |
